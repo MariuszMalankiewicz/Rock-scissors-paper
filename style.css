@@ -10,9 +10,6 @@
 a{
     font-size: 1rem;
 }
-p{
-    font-size: .8rem;
-}
 body{
     height: 100vh;
     width: 100vw;
@@ -58,6 +55,7 @@ img{
 }
 .small{
     color: rgb(130, 130, 130);
+    font-size: .8rem;
 }
 /* instruction */
 .instruction-img{
@@ -76,7 +74,6 @@ img{
     font-weight: bold;
     letter-spacing: .5px;
 }
-
 /* GAME */
 .center{
     display: flex;
@@ -94,9 +91,6 @@ img{
     text-align: center;
     padding: 20px 0;
 }
-.used-hand i{
-    font-size: 4rem;
-}
 .choose-hands{
     display: flex;
     flex-direction: column;
@@ -105,10 +99,18 @@ img{
     width: 100%;
     padding: 10px 0;
 }
-.choose-hands i{
-    font-size: 3rem;
-    padding: 20px 20px;
+.choose-hands div:nth-child(2){
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.choose-hands p{
+    font-weight: bold;
     cursor: pointer;
+    padding: 5px 10px;
+    
 }
 .play{
     background-color: aqua;
@@ -117,6 +119,7 @@ img{
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    font-weight: bold;
 }
 .back{
     display: flex;
