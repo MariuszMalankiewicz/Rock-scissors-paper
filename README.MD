@@ -6,7 +6,7 @@
 * [Setup](#setup)
 
 ## General info
-The goal of the project was learning html, css and java script. 
+Simple game rock, scissors and paper. The goal of the project was learning html, css and java script. 
 	
 ## Technologies
 Project is created with:
