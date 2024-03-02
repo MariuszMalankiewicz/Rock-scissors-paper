@@ -1,5 +1,19 @@
 # Rock scissors and paper
 
-simple game made in html, css and java script technology
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-live link: https://mariuszmalankiewicz.github.io/Rock-scissors-paper/
+## General info
+The goal of the project was learning html, css and java script. 
+	
+## Technologies
+Project is created with:
+* HTML 5
+* CSS 3
+* Java Script
+	
+## Setup
+* Clone this repo to your desktop
+* Run start file index.html
